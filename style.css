@@ -1,0 +1,113 @@
+body {
+    background-image: url('images/background.jpg');
+    color: white;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 20px;
+    padding-top: 50px;
+  }
+
+  .first-container{
+    display: flex;
+    flex-direction: column;
+    background-color: lightskyblue;
+    padding: 30px;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    padding-top: 40px;
+    border-radius: 50px;
+  }
+  .user{
+    font-family: Arial;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .content{
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .score-5{
+    font-family: Arial;
+    font-size: 24px;
+  }
+  
+  .imageMain{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    background-color: white;
+    height: 500px;
+    border-radius: 50px;
+    color: black;
+    
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .move-icon {
+    height: 50px;
+  }
+  
+  .move-button {
+    background-color: transparent;
+    border: 3px solid black;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  .score {
+    margin-top: 60px;
+  }
+  
+  .reset-score-button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }

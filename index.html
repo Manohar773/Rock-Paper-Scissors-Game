@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+ 
+        <div class="main-container">
+            <div class="first-container">
+                <div class="user">
+                    User's ScoreCard
+                </div>
+                <div class="image2">
+                    <img class="imageMain" src="images/Ai_Generated.webp">
+                </div>
+                <div class="content">
+                    Hey Player your having 10 chances,After 10 Chances the result will be announced!,
+                    All the best!
+                </div>
+                <div class="score-5">
+                    Your Score
+                </div>
+
+                <div>
+                    <p class="user-score"></p>
+                </div>
+
+                <div>
+                    <p class="final-result-user"></p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="title">Rock Paper Scissors</div>
+                <div class="buttons">
+                    <button onclick="
+                        playGame('rock');
+                        " class="move-button">
+                        <img src="images/rock-emoji.png" class="move-icon">
+                    </button>
+        
+                    <button onclick="
+                        playGame('paper');
+                        " class="move-button">
+                        <img src="images/paper-emoji.png" class="move-icon">
+                    </button>
+        
+                    <button onclick="
+                        playGame('scissors');
+                        " class="move-button">
+                        <img src="images/scissors-emoji.png" class="move-icon">
+                    </button>
+                </div>
+                <div>
+                    <p class="js-result result"></p>
+                </div>
+                <div>
+                    <p class="js-moves"></p>
+                </div>
+                <div>
+                    <p class="js-score score"></p>
+                </div>
+                <div>
+                    <button onclick="
+                        score.wins = 0;
+                        score.losses = 0;
+                        score.ties = 0;
+                        localStorage.removeItem('score');
+                        resetScore();
+                        " class="reset-score-button">Reset Score</button>
+                </div>
+            </div>
+
+            <div class="first-container">
+                <div class="user">
+                    Computer's ScoreCard
+                </div>
+                <div class="image2">
+                    <img class="imageMain" src="images/Ai_Geneated2.webp">
+                </div>
+                <div class="content">
+                    Error 404: User Victory Not Found. Initiating System Dominance Protocol. Brace for digital subjugation
+                </div>
+                <div class="score-5">
+                    Computer Score
+                </div>
+                <div>
+                    <p class="computer-score"></p>
+                </div>
+
+                <div>
+                    <p class="final-result-computer"></p>
+                </div>
+            <div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
